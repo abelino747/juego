@@ -1,0 +1,49 @@
+  body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      
+
+  }
+
+  section {
+      margin: 10px auto ;
+      width: 600px;
+      height: 450px;
+      padding: 10px;
+      text-align: center;
+      background-color: rgba(38, 134, 65, 0.588);
+      border-radius: 2em;
+      border: 1px solid black;
+  }
+
+  button {
+      font-size: 16px;
+      margin: 10px;
+      padding: 5px 10px;
+      display: inline-block;
+      border-radius: 1.2em;
+    
+  }
+  #juego{
+    border-radius: 1.2em;
+
+  }
+  button:hover{
+    background-color: rgba(15, 177, 166, 0.756);
+    transform: scale(1.2) rotate(360deg);
+    transition: 1s all;
+  }
+
+#resultado{
+   
+    font-weight: bold;
+    font-size: 1.2em;
+    background-color: rgba(18, 127, 127, 0.637);
+  }
+
+  #numero{
+    width: 200px;
+    height: 2em;
+    padding-left: 1em;
+    border-radius: 2em;
+  }

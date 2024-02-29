@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>juego Piedra papel o Tijeras</title>
+    <link rel="stylesheet" href="../css/styles.css" />
+  </head>
+  <body>
+    <h1>juego Piedra papel o Tijeras</h1>
+
+    <section>
+      <h2>Elige una opción:</h2>
+
+      <button onclick="jugar('piedra')">
+        <img
+          id="juego"
+          src="../img/piedra.png"
+          width="100px"
+          height="150px"
+          alt=""
+        />
+      </button>
+
+      <button onclick="jugar('papel')">
+        <img
+          id="juego"
+          src="../img/papel.png"
+          width="100px"
+          height="150px"
+          alt=""
+        />
+      </button>
+
+      <button onclick="jugar('tijera')">
+        <img
+          id="juego"
+          src="../img/tijeras.png"
+          width="100px"
+          height="150px"
+          alt=""
+        />
+      </button>
+
+      <p id="texto"></p>
+      <div id="resultado"></div>
+    </section>
+
+    <h2>Adivina el numero Aleatorio</h2>
+    <section>
+      <h2> digita un numero del 1 al 100 : </h2>
+      
+        <input type="number" id="numero" >
+
+        <button id="adivinar" onclick="adivinar()"> Adivinar</button>
+
+        <p id="res"></p>
+    </section>
+
+
+
+
+
+    <script src="../js/script.js"></script>
+    <script src="../js/script2.js"></script>
+  </body>
+</html>
